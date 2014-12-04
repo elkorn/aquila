@@ -2,7 +2,7 @@ package elkorn.aquila.rss.service
 
 import java.net.URL
 
-import elkorn.aquila.rss.service.model.Feed
+import elkorn.aquila.rss.model.Feed
 
 import scala.io.{BufferedSource, Source}
 import scala.xml.{Node, XML}

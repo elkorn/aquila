@@ -2,7 +2,7 @@ package elkorn.aquila.service
 
 import java.net.URL
 
-import elkorn.aquila.rss.service.model.Feed
+import elkorn.aquila.rss.model.Feed
 import elkorn.aquila.rss.service.{OPMLReader, ResourceOPMLReader}
 import elkorn.aquila.service.test.utilities.Spec
 
