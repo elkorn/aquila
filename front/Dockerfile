@@ -34,12 +34,16 @@ RUN     echo "Xvfb -ac :99 &" > ~/startXserver.sh
 RUN     chmod u+x ~/startXserver.sh
 
 ENV     DISPLAY :99
-ENV     node /usr/bin/nodejs
+RUN     ln -s /usr/bin/nodejs /usr/bin/node
 
 WORKDIR /home/aquila-front
 ADD     package.json /home/aquila-front/package.json
 RUN     npm install
 
 ADD     . /home/aquila-front
+
+EXPOSE  2992:2992
+EXPOSE  8080:8080
+EXPOSE  80:80
 
 CMD     ["/bin/bash"]
