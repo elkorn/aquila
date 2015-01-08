@@ -1,4 +1,5 @@
 var React = require("react");
+var CommentBox = require("../CommentBox/index.jsx"); 
 var Link = require("react-router").Link;
 
 module.exports = React.createClass({
@@ -11,6 +12,7 @@ module.exports = React.createClass({
 				<li><Link to="todolist" params={{list: "mylist"}}>mylist</Link></li>
 				<li><Link to="todolist" params={{list: "otherlist"}}>otherlist</Link></li>
 			</ul>
+            <p>test</p>
 			<p>Or try to switch to <Link to="some-page">some page</Link>.</p>
 		</div>;
 	}
