@@ -1,8 +1,6 @@
 package elkorn.aquila.core.resources
 
-/**
- * Created by elkorn on 2/6/15.
- */
-trait Load[TResult, TResolver] {
+trait Load[TAddress, TResult, TResolver] {
+  val address: TAddress
   def resolve(downloadResolver: TResolver): TResult
 }

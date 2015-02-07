@@ -1,4 +1,4 @@
-package elkorn.aquila.rss.service
+package elkorn.aquila.news.service
 
 //import java.net.URL
 //

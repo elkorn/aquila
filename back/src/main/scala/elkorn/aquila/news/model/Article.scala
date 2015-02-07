@@ -1,3 +1,3 @@
-package elkorn.aquila.rss.model
+package elkorn.aquila.news.model
 
 case class Article(body: String)

@@ -2,8 +2,7 @@ package elkorn.aquila.core.resources
 
 import elkorn.aquila.core.loaders.HttpDownloader
 
-/**
- * Created by elkorn on 2/6/15.
- */
-trait HttpDownload[TResult] extends Load[TResult, HttpDownloader]
+trait HttpDownload[TResult] extends Load[java.net.URL, TResult, HttpDownloader] {
+  val address: java.net.URL
+}
 

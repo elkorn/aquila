@@ -1,8 +1,8 @@
 package elkorn.aquila.core.loaders
 
-/**
- * Created by elkorn on 2/6/15.
- */
-class HttpDownloader {
+import scalaj.http.{Http, HttpResponse}
 
+class HttpDownloader  {
+  def load(address: java.net.URL): HttpResponse[String] =
+    Http(address.toString).asString
 }

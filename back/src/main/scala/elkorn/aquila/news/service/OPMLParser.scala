@@ -1,10 +1,7 @@
-package elkorn.aquila.rss.service
+package elkorn.aquila.news.service
 
 //import scala.xml.{Node, XML}
 
-/**
- * Created by elkorn on 12/6/14.
- */
 //class OPMLParser(documentProvider: DocumentProvider) {
 //  def tryUrlAttr(node: Node, s: String): Option[URL] = {
 //    val result = node \ s"@$s"

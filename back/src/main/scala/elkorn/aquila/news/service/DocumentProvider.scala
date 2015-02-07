@@ -1,8 +1,5 @@
-package elkorn.aquila.rss.service
+package elkorn.aquila.news.service
 
-/**
- * Created by elkorn on 12/6/14.
- */
 //trait DocumentProvider[TDocument, TSourceProvider] {
 //  def getDocument(url: String): TDocument
 //}

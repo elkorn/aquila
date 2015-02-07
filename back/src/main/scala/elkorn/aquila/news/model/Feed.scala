@@ -1,8 +1,5 @@
-package elkorn.aquila.rss.model
+package elkorn.aquila.news.model
 
-/**
- * Created by elkorn on 12/4/14.
- */
 trait ArticleGroup {
   val name: String
   val articles: Iterable[Article]
