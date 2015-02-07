@@ -1,4 +1,4 @@
-package elkorn.aquila.service.test.utilities
+package elkorn.aquila.test.utilities
 
 import org.scalatest.mock.MockitoSugar
 import org.scalatest.{BeforeAndAfterAll, BeforeAndAfterEach, Matchers, WordSpecLike}
